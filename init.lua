@@ -52,6 +52,19 @@ return {
     servers = {
       -- "pyright"
     },
+    config = {
+      -- make the rust-analyzer use its own profile (https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/pack/rust)
+      rust_analyzer = {
+        settings = {
+          ["rust-analyzer"] = {
+           cargo = {
+              extraEnv = { CARGO_PROFILE_RUST_ANALYZER_INHERITS = 'dev', },
+              extraArgs = { "--profile", "rust-analyzer", },
+            },
+          },
+        },
+      },
+    },
   },
 
   -- Configure require("lazy").setup() options
