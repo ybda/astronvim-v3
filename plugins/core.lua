@@ -5,11 +5,6 @@ return {
     opts = function(_, opts)
       -- customize the dashboard header
       opts.section.header.val = {
-        "      _        _      ",
-        " _  _| |__  __| |__ _ ",
-        "| || | '_ \\/ _` / _` |",
-        " \\_, |_.__/\\__,_\\__,_|",
-        " |__/                 ",
       }
       return opts
     end,
