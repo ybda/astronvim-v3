@@ -9,22 +9,6 @@ return {
       return opts
     end,
   },
-  {
-    "AstroNvim/astrotheme",
-    opts = {
-      palettes = {
-        astrodark = { -- Extend or modify astrodarks palette colors
-          ui = {
-            base = "#080808",
-            inactive_base = "#0b0b0b",
-            tool = "#0b0b0b",
-            tabline = "#0f0f0f",
-            current_line = "#291e27",
-          },
-        },
-      },
-    },
-  },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
