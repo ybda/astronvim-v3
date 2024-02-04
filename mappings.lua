@@ -40,6 +40,9 @@ return {
       end,
       desc = "Close Previous Buffer",
     },
+    -- copy to system clipboard
+    ["<leader>y"] = "\"+y",
+    ["<leader>Y"] = "\"+Y",
   },
   t = {
     -- setting a mapping to false will disable it
@@ -49,6 +52,8 @@ return {
     -- move lines (by ThePrimeagen)
     ["J"] = ":m '>+1<CR>gv=gv",
     ["K"] = ":m '<-2<CR>gv=gv",
+    -- copy to system clipboard
+    ["<leader>y"] = "\"+y",
   },
   x = {
     -- paste in selection without loosing your stuff in clipboard (by ThePrimeagen)

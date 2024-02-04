@@ -14,6 +14,7 @@ return {
     expandtab = true,
     smartindent = true,
     scrolloff = 8,
+    clipboard = "",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
