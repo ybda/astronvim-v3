@@ -45,4 +45,13 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+    -- move lines (by ThePrimeagen)
+    ["J"] = ":m '>+1<CR>gv=gv",
+    ["K"] = ":m '<-2<CR>gv=gv",
+  },
+  x = {
+    -- paste in selection without loosing your stuff in clipboard (by ThePrimeagen)
+    ["<leader>p"] = "\"_dP",
+  },
 }
