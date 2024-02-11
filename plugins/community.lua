@@ -15,6 +15,7 @@ return {
     { import = "astrocommunity.pack.bash" },
     { import = "astrocommunity.pack.lua" },
     { import = "astrocommunity.pack.just" },
+    { import = "astrocommunity.pack.typescript-all-in-one" },
 
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.diagnostics.trouble-nvim" },
