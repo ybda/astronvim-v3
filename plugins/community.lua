@@ -18,4 +18,6 @@ return {
 
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.diagnostics.trouble-nvim" },
+
+    { import = "astrocommunity.motion.leap-nvim" },
 }
